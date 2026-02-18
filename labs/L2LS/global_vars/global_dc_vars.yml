@@ -57,6 +57,13 @@ dns_settings:
   servers:
     - ip_address: 192.168.0.1
 
+# Syslog
+logging_settings:
+  hosts:
+    - name: 10.200.0.108
+    - name: 10.200.1.108
+  vrfs:
+    - name: default
 # Point to Point Links MTU Override for Lab
 p2p_uplinks_mtu: 1500
 # Login Banner
